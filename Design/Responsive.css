@@ -1,0 +1,92 @@
+@media screen and (max-width:600px){
+    /* header start */
+    .header-section{
+        flex-direction: column;
+        width:100%;
+        max-width: 600px;
+    }
+    .item-container{
+        display: none;
+    
+        flex-direction: column;
+    }
+    /* header end */
+
+    /* banner start */
+    .banner-back {
+        max-width: 1170px;
+        width: 100%;
+        margin: 50px auto 0;
+        border-radius: 16px;
+        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Resources/banner1.jpg');
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed
+    }
+
+    .nav-bar {
+        max-width: 600px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .nav-list>ul {
+        display: none;
+    }
+
+    .b-desc {
+        max-width: 304px;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 32px;
+
+    }
+
+    .b-title {
+        font-size: 22px;
+        font-weight: 800;
+        padding: 32px auto;
+    }
+    .menu {
+        display: grid;
+        padding: 20px;
+    }
+
+    .head-input input,
+    button {
+        margin: 0 auto;
+        border: none;
+    }
+
+    .flat-display {
+        display: flex;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        margin-bottom: 0px;
+
+    }
+
+    /* banner end */
+
+    /* Our Popular Tour start here */
+
+    main {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .OPT-cont {
+        flex-direction: column;
+    }
+
+    .OPT-sec ,.OPT-img
+    {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
+/*  Our Popular Tour End here  */
