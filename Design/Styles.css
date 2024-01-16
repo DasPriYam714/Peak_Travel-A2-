@@ -273,3 +273,87 @@ main {
     font-size: 20px;
     font-weight: 150;
 }
+
+/* 70% off start  */
+
+hr {
+    background: rgba(19, 19, 24, 0.10);
+    margin-bottom: 24px;
+    height: 1px;
+    margin: 0 20px 24px;
+}
+
+.news-input input {
+    width: 95%;
+    max-width: 1170px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    height: 52px;
+    align-items: center;
+    padding-left: 20px;
+    border: none;
+    margin-bottom: 24px;
+
+}
+
+.news-input button {
+    background: #FF5400;
+    width: 100%;
+
+}
+
+.news-part {
+    width: 50%;
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.newslatter {
+    position: relative; 
+    width: 50%;
+    border: 2px solid red;
+    border-radius: 16px;
+    background: url("../Resources/Rectangle\ 8.png"), lightgray 50% / cover no-repeat;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    max-width: 672px;
+    height: 422px;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.newsimg {
+    width: 100%;
+}
+
+.rotate {
+    position: absolute; /* Position the rotated box absolutely within the relative container */
+    top: 65%; /* Adjust top position */
+    left: 50%; /* Adjust left position */
+    border: 2px solid red;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: #FF5400;
+    max-width: 324px;
+    transform: rotate(-22.628deg);
+    flex-shrink: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.rotate p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 auto 5px;
+}
+
+.rotate h3 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0 auto;
+}
