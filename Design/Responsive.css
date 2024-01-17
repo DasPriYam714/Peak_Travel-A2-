@@ -8,11 +8,7 @@
    .header-section .item-container> ul{
         display: none;
     }
-    /* .item-container{
-        display: none;
     
-        flex-direction: column;
-    } */
     /* header end */
 
     /* banner start */
@@ -121,6 +117,12 @@
         gap:10px;
     }
     /* your destination end */
+
+    /* why choose start */
+    .WCU-flex {
+        
+        flex-direction: column;
+    }
 
     /* discount start */
 
