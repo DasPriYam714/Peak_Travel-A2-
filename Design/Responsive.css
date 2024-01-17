@@ -5,6 +5,9 @@
         width:100%;
         max-width: 600px;
     }
+   .header-section .item-container> ul{
+        display: none;
+    }
     /* .item-container{
         display: none;
     
@@ -97,6 +100,7 @@
 }
 .grid-2 .IMG-1 img{
     width: 100%;
+    height: 95%;
 }
 
     .grid-1{
@@ -117,6 +121,25 @@
         gap:10px;
     }
     /* your destination end */
+
+    /* discount start */
+
+    .cont1-item,
+    .cont3-item,
+    .cont2-item {
+        margin: 0px 16px;
+        justify-content: flex-end;
+    }
+
+    .deals-text,
+    .deals-img {
+        flex-wrap: wrap;
+    }
+    /* yourself start */
+    .Fontline {
+        width: 100%;
+
+    }
 
 
 /* 70% */
@@ -139,11 +162,12 @@
         left: 25%; 
         transform: rotate(-22.628deg);
         margin: 0;
-        max-width: 1170px;
+        max-width: 130px;
         width: 60%;
     }
-    .newsimg {
+    .offer {
         width: 60%;
+
     }
 
 }
