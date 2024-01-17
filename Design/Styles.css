@@ -192,6 +192,48 @@ main {
     align-items: flex-end;
 }
 /* OPT end here */
+/* your destination start */
+.IMG{
+    /* border:2px solid red; */
+    border-radius: 10px;
+    /* padding: 10px; */
+    width:100%;
+    margin-top: 10px;
+    
+    
+}
+.IMG img {
+    width: 570px;
+    height: 300px;
+    
+}
+.IMG-1{
+    /* border:2px solid red; */
+    border-radius: 10px;
+    /* padding: 10px; */
+    width:100%;
+    margin-top: 10px;
+
+    
+}
+.grid-1{
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    gap: 20px; */
+    display: flex;
+    gap:20px
+    
+}
+.grid-2{
+    /* display: grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 20px; */
+    display: flex;
+    gap: 20px;
+}
+
+/* your destination end */
 
 .main2-des h3 {
     color: #131318;
@@ -273,7 +315,113 @@ main {
     font-size: 20px;
     font-weight: 150;
 }
+/* dis and offer start */
+.box1 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
 
+}
+
+
+.deals-cont1 {
+    border-radius: 16px;
+    background: url("../Resources/beach22.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.deals-cont2 {
+    border-radius: 16px;
+    background: url("../Resources/beach11.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.deals-cont3 {
+    border-radius: 16px;
+    background: url("../Resources/beach33.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+}
+
+.cont1-item,
+.cont2-item,
+.cont3-item {
+
+    border-radius: 16px;
+    max-width: 579px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 20px;
+    width: fit-content;
+}
+
+.cont1-item {
+    margin-right: 56px;
+}
+
+.cont2-item {
+    margin-left: 56px;
+}
+
+.cont3-item {
+    margin-right: 56px;
+}
+
+.deals-text {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.deals-img {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.deals-des,
+.deals-img p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.deals-head {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.deals-am {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+/* dis and offer end  */
 /* 70% off start  */
 
 hr {

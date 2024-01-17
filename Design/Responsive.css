@@ -90,6 +90,34 @@
 
     /*  Our Popular Tour End here  */
 
+    /* your destination start */
+    
+.grid-1 .IMG img{
+    width: 100%;
+}
+.grid-2 .IMG-1 img{
+    width: 100%;
+}
+
+    .grid-1{
+        
+        /* grid-template-columns: repeat(2,2fr);
+       
+        border: 3px solid red;
+        gap: 10px; */
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        
+    }
+    .grid-2{
+        /* grid-template-columns: repeat(1, 3fr);
+        border: 1px solid red; */
+        flex-direction: column;
+        gap:10px;
+    }
+    /* your destination end */
+
 
 /* 70% */
     .newslatter {
@@ -108,11 +136,11 @@
     
     .rotate {
         top: 65%; 
-        left: 45%; 
+        left: 25%; 
         transform: rotate(-22.628deg);
-        margin: 20;
-        max-width: 324px;
-        width: 20%;
+        margin: 0;
+        max-width: 1170px;
+        width: 60%;
     }
     .newsimg {
         width: 60%;
