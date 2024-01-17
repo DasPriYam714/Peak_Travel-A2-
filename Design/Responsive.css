@@ -5,11 +5,11 @@
         width:100%;
         max-width: 600px;
     }
-    .item-container{
+    /* .item-container{
         display: none;
     
         flex-direction: column;
-    }
+    } */
     /* header end */
 
     /* banner start */
@@ -88,28 +88,35 @@
         margin: 0 auto;
     }
 
-}
-/*  Our Popular Tour End here  */
+    /*  Our Popular Tour End here  */
+
+
 /* 70% */
-.newslatter {
-    width: 100%;
-    align-items: center;
-    background-size: cover;
-    background-position: center;
-    max-width: 672px;
-    height: 422px;
-    flex-shrink: 0;
-    width: 100%;
-}
-.news-part{
-    width: 100%;
+    .newslatter {
+        width: 100%;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        max-width: 672px;
+        height: 422px;
+        flex-shrink: 0;
+        width: 100%;
+    }
+    .news-part{
+        width: 100%;
+    }
+    
+    .rotate {
+        top: 65%; 
+        left: 45%; 
+        transform: rotate(-22.628deg);
+        margin: 20;
+        max-width: 324px;
+        width: 20%;
+    }
+    .newsimg {
+        width: 60%;
+    }
+
 }
 
-.rotate {
-    top: 65%; 
-    left: 25%; 
-    transform: rotate(-22.628deg);
-    margin: 0;
-    max-width: 1170px;
-    width: 60%;
-}
